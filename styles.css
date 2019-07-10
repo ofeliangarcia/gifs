@@ -1,0 +1,36 @@
+h1{
+  color: #ca7e8d;
+
+  font-family: 'Roboto Mono', monospace;
+  font-size: 48px;
+  display: flex;
+  justify-content: center;
+}
+ body {
+   background: #adddce;
+ }
+
+ .faded
+ {
+    opacity:0.7;
+    filter:alpha(opacity=50);   /* For IE */
+ }
+
+ .faded:hover
+ {
+   opacity:1.0;
+   filter:alpha(opacity=100);   /* For IE */
+ }
+
+ img {
+   background: white;
+   width: 250px;
+   height: 250px;
+   margin: 10px;
+ }
+
+ .pics{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+ }
